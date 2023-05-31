@@ -1,0 +1,47 @@
+{
+  "name": "next-rebuild",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@firebase/auth": "^0.23.0",
+    "@gorhom/bottom-sheet": "^4.4.5",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-native-firebase/app": "^17.4.2",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "@reduxjs/toolkit": "^1.9.5",
+    "expo": "~48.0.11",
+    "expo-constants": "^14.2.1",
+    "expo-location": "~15.1.1",
+    "expo-notifications": "^0.18.1",
+    "expo-status-bar": "~1.4.4",
+    "firebase": "^9.20.0",
+    "mongodb": "^5.3.0",
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-date-picker": "^4.2.11",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-google-places-autocomplete": "^2.5.1",
+    "react-native-loading-spinner-overlay": "^3.0.1",
+    "react-native-maps": "^1.5.0",
+    "react-native-maps-directions": "^1.9.0",
+    "react-native-paper": "^5.7.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-safe-area-context": "^4.5.1",
+    "react-navigation": "^4.4.4",
+    "react-redux": "^8.0.5",
+    "tailwind-react-native-classnames": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "react-native-dotenv": "^3.4.8"
+  },
+  "private": true
+}

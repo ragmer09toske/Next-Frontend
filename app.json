@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "next-rebuild",
+    "slug": "next-rebuild",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./componant/4.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./componant/4.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.next.ray"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3442fd5-4bd3-41c9-a84f-6c6da594baa2"
+      }
+    }
+  }
+}

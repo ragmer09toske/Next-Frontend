@@ -1,0 +1,30 @@
+//  Attempting to store data from the async storage
+const storeData = async (key, value) => {
+    try {
+      await AsyncStorage.setItem(key, value);
+      setStoredValue(value);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  //  Attempting to get data from the async storage
+  const retrieveData = async (key) => {
+    try {
+      const value = await AsyncStorage.getItem(key);
+      if (value !== null) {
+        setStoredValue(value);
+        return value;
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  //  Calling the function to accesse phone storage
+  storeData('myKey', '6450e674a184e85d622d1c15')
+  retrieveData('myKey')
+  .then((value) => {
+    dispatch(setCurrentUSerID(value))
+  })
+  .catch((error) => console.log(error))
